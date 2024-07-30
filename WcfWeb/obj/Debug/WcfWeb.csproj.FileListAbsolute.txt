@@ -1,0 +1,10 @@
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\bin\WcfWeb.dll.config
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\bin\WcfWeb.dll
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\bin\WcfWeb.pdb
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\bin\EntityFramework.dll
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\bin\EntityFramework.xml
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.CoreCompileInputs.cache
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.CopyComplete
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.dll
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.pdb
+C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.csprojAssemblyReference.cache
