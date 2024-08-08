@@ -8,3 +8,13 @@ C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.
 C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.dll
 C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.pdb
 C:\Users\dgodoy\source\repos\TestAppAzure\WpfApp\WcfWeb\obj\Debug\WcfWeb.csprojAssemblyReference.cache
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\bin\WcfWeb.dll.config
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\bin\WcfWeb.dll
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\bin\WcfWeb.pdb
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\bin\EntityFramework.dll
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\bin\EntityFramework.xml
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.AssemblyReference.cache
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.CoreCompileInputs.cache
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\obj\Debug\WcfWeb.csproj.CopyComplete
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\obj\Debug\WcfWeb.dll
+C:\Users\godoy\source\repos\GIT\WpfApp\WcfWeb\obj\Debug\WcfWeb.pdb
