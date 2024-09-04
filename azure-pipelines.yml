@@ -1,0 +1,77 @@
+trigger:
+  branches:
+    include:
+      - '*'
+
+pool:
+  vmImage: 'windows-2019'
+
+variables:
+  buildConfiguration: 'Release'
+  wcfFramework: 'net40'
+  wpfFramework: 'net452'
+
+steps:
+# - task: UseDotNet@2
+#   inputs:
+#     packageType: 'sdk'
+#     version: '2.2.x' # You may need to specify a version that supports both frameworks
+#     # installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    restoreSolution: '**/*.sln'
+
+- task: VSBuild@1
+  displayName: 'Build WCF Project'
+  inputs:
+    solution: 'WcfWeb/WcfWeb.csproj'
+    vsVersion: 'latest'
+    msbuildArgs: '/p:Configuration=$(buildConfiguration) /p:TargetFramework=$(wcfFramework) /p:OutDir=$(Build.ArtifactStagingDirectory)\WcfWeb\\'
+
+- task: VSBuild@1
+  displayName: 'Build WPF Project'
+  inputs:
+    solution: 'WpfApp/WpfApp.csproj'
+    vsVersion: 'latest'
+    msbuildArgs: '/p:Configuration=$(buildConfiguration) /p:TargetFramework=$(wpfFramework) /p:OutDir=$(Build.ArtifactStagingDirectory)\WpfApp\\'
+
+# Save WCF build artifacts
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish WCF Artifacts'
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)\WcfWeb'
+    artifact: 'WCFWebArtifacts'
+    publishLocation: 'pipeline'
+
+- task: UniversalPackages@0
+  displayName: 'Publish WCF Artifact to feed'
+  inputs:
+    command: 'publish'
+    publishDirectory: '$(Build.ArtifactStagingDirectory)\WcfWeb'
+    feedsToUse: 'internal'
+    vstsFeedPublish: 'WpfAppTest/main'
+    vstsFeedPackagePublish: 'wcfapp'
+    packagePublishDescription: 'WCF Project Build Artifacts'
+    versionOption: 'patch'
+
+# Save WPF build artifacts
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish WPF Artifacts'
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)\WpfApp'
+    artifact: 'WPFAppArtifacts'
+    publishLocation: 'pipeline'
+
+- task: UniversalPackages@0
+  displayName: 'Publish WPF Artifact to feed'
+  inputs:
+    command: 'publish'
+    publishDirectory: '$(Build.ArtifactStagingDirectory)\WpfApp'
+    feedsToUse: 'internal'
+    vstsFeedPublish: 'WpfAppTest/main'
+    vstsFeedPackagePublish: 'wpfapp'
+    packagePublishDescription: 'WPF Project Build Artifacts'
+    versionOption: 'patch'
