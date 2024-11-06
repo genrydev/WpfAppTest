@@ -1,0 +1,261 @@
+{
+  "source": 2,
+  "revision": 3,
+  "description": null,
+  "createdBy": {
+    "displayName": "Genry Leyva",
+    "url": "https://spsprodsbr1.vssps.visualstudio.com/A2d8decc4-b07d-4079-a909-06f9686e169c/_apis/Identities/55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+      }
+    },
+    "id": "55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+    "uniqueName": "gleyva@arnaldocastro.com.uy",
+    "imageUrl": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi",
+    "descriptor": "aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+  },
+  "createdOn": "2024-11-06T19:42:47.990Z",
+  "modifiedBy": {
+    "displayName": "Genry Leyva",
+    "url": "https://spsprodsbr1.vssps.visualstudio.com/A2d8decc4-b07d-4079-a909-06f9686e169c/_apis/Identities/55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+    "_links": {
+      "avatar": {
+        "href": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+      }
+    },
+    "id": "55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+    "uniqueName": "gleyva@arnaldocastro.com.uy",
+    "imageUrl": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi",
+    "descriptor": "aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+  },
+  "modifiedOn": "2024-11-06T19:47:34.350Z",
+  "isDeleted": false,
+  "isDisabled": false,
+  "lastRelease": {
+    "id": 5,
+    "name": "Release-1",
+    "artifacts": [],
+    "_links": {},
+    "description": "Triggered release for feed: mainorg package: wcfapp version: 0.0.42.",
+    "releaseDefinition": { "id": 3, "projectReference": null, "_links": {} },
+    "createdOn": "2024-11-06T19:51:35.647Z",
+    "createdBy": {
+      "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+      "id": "0000000d-0000-8888-8000-000000000000",
+      "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+      "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+    }
+  },
+  "variables": {},
+  "variableGroups": [],
+  "environments": [
+    {
+      "id": 4,
+      "name": "Copy to Destination Server",
+      "rank": 1,
+      "owner": {
+        "displayName": "Genry Leyva",
+        "url": "https://spsprodsbr1.vssps.visualstudio.com/A2d8decc4-b07d-4079-a909-06f9686e169c/_apis/Identities/55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+        "_links": {
+          "avatar": {
+            "href": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+          }
+        },
+        "id": "55b2cb5a-3898-612e-9c70-3265a88f4eeb",
+        "uniqueName": "gleyva@arnaldocastro.com.uy",
+        "imageUrl": "https://dev.azure.com/gleyva/_apis/GraphProfile/MemberAvatars/aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi",
+        "descriptor": "aad.NTViMmNiNWEtMzg5OC03MTJlLTljNzAtMzI2NWE4OGY0ZWVi"
+      },
+      "variables": {},
+      "variableGroups": [],
+      "preDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 10
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 1
+        }
+      },
+      "deployStep": { "id": 11 },
+      "postDeployApprovals": {
+        "approvals": [
+          {
+            "rank": 1,
+            "isAutomated": true,
+            "isNotificationOn": false,
+            "id": 12
+          }
+        ],
+        "approvalOptions": {
+          "requiredApproverCount": null,
+          "releaseCreatorCanBeApprover": false,
+          "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+          "enforceIdentityRevalidation": false,
+          "timeoutInMinutes": 0,
+          "executionOrder": 2
+        }
+      },
+      "deployPhases": [
+        {
+          "deploymentInput": {
+            "parallelExecution": { "parallelExecutionType": 0 },
+            "agentSpecification": null,
+            "skipArtifactsDownload": false,
+            "artifactsDownloadInput": {
+              "downloadInputs": [
+                {
+                  "alias": "_wcfapp",
+                  "artifactType": "PackageManagement",
+                  "artifactDownloadMode": "All",
+                  "artifactItems": []
+                }
+              ]
+            },
+            "queueId": 121,
+            "demands": [],
+            "enableAccessToken": false,
+            "timeoutInMinutes": 0,
+            "jobCancelTimeoutInMinutes": 1,
+            "condition": "succeeded()",
+            "overrideInputs": {}
+          },
+          "rank": 1,
+          "phaseType": 1,
+          "name": "Pivot",
+          "refName": null,
+          "workflowTasks": [
+            {
+              "environment": {},
+              "taskId": "731004d4-1d66-4f70-8c05-638018b22210",
+              "version": "2.*",
+              "name": "Copy files from Pivot to Dest Server",
+              "refName": "",
+              "enabled": true,
+              "alwaysRun": false,
+              "continueOnError": false,
+              "timeoutInMinutes": 0,
+              "retryCountOnTaskFailure": 0,
+              "definitionType": "task",
+              "overrideInputs": {},
+              "condition": "succeeded()",
+              "inputs": {
+                "SourcePath": "$(System.DefaultWorkingDirectory)/_wcfapp",
+                "MachineNames": "server-dns",
+                "AdminUserName": "admin-user",
+                "AdminPassword": "contrasenna",
+                "TargetPath": "C:\\inetpub\\data-test",
+                "CleanTargetBeforeCopy": "false",
+                "CopyFilesInParallel": "true",
+                "AdditionalArguments": ""
+              }
+            }
+          ]
+        }
+      ],
+      "environmentOptions": {
+        "emailNotificationType": "OnlyOnFailure",
+        "emailRecipients": "release.environment.owner;release.creator",
+        "skipArtifactsDownload": false,
+        "timeoutInMinutes": 0,
+        "enableAccessToken": false,
+        "publishDeploymentStatus": true,
+        "badgeEnabled": false,
+        "autoLinkWorkItems": false,
+        "pullRequestDeploymentEnabled": false
+      },
+      "demands": [],
+      "conditions": [
+        {
+          "name": "ReleaseStarted",
+          "conditionType": 1,
+          "value": "",
+          "result": null
+        }
+      ],
+      "executionPolicy": { "concurrencyCount": 1, "queueDepthCount": 0 },
+      "schedules": [],
+      "currentRelease": {
+        "id": 5,
+        "url": "https://vsrm.dev.azure.com/gleyva/1d04d4bb-b8ea-423a-9150-42b7f2543054/_apis/Release/releases/5",
+        "_links": {}
+      },
+      "retentionPolicy": {
+        "daysToKeep": 30,
+        "releasesToKeep": 3,
+        "retainBuild": true
+      },
+      "processParameters": {},
+      "properties": {
+        "BoardsEnvironmentType": {
+          "$type": "System.String",
+          "$value": "unmapped"
+        },
+        "LinkBoardsWorkItems": { "$type": "System.String", "$value": "False" }
+      },
+      "preDeploymentGates": { "id": 0, "gatesOptions": null, "gates": [] },
+      "postDeploymentGates": { "id": 0, "gatesOptions": null, "gates": [] },
+      "environmentTriggers": [],
+      "badgeUrl": "https://vsrm.dev.azure.com/gleyva/_apis/public/Release/badge/1d04d4bb-b8ea-423a-9150-42b7f2543054/3/4"
+    }
+  ],
+  "artifacts": [
+    {
+      "sourceId": "441dc6c6-edd9-4c71-a793-76ef95c4355e:71a4bdbf-56b0-4a5e-abf2-96d072d74128",
+      "type": "PackageManagement",
+      "alias": "_wcfapp",
+      "definitionReference": {
+        "defaultVersionSpecific": { "id": "", "name": "" },
+        "defaultVersionType": { "id": "latestType", "name": "Latest" },
+        "definition": {
+          "id": "71a4bdbf-56b0-4a5e-abf2-96d072d74128",
+          "name": "wcfapp"
+        },
+        "feed": {
+          "id": "441dc6c6-edd9-4c71-a793-76ef95c4355e",
+          "name": "mainorg"
+        },
+        "files": { "id": "**", "name": "**" },
+        "packageType": { "id": "upack", "name": "Universal" },
+        "skipextract": { "id": "", "name": "" },
+        "view": { "id": "", "name": "" }
+      },
+      "isPrimary": true,
+      "isRetained": false
+    }
+  ],
+  "triggers": [{ "alias": "_wcfapp", "triggerType": 5 }],
+  "releaseNameFormat": "Release-$(rev:r)",
+  "tags": [],
+  "properties": {
+    "DefinitionCreationSource": {
+      "$type": "System.String",
+      "$value": "ReleaseNew"
+    },
+    "IntegrateBoardsWorkItems": { "$type": "System.String", "$value": "False" },
+    "IntegrateJiraWorkItems": { "$type": "System.String", "$value": "false" }
+  },
+  "id": 3,
+  "name": "Deploy WCF to Dest Server",
+  "path": "\\",
+  "projectReference": null,
+  "url": "https://vsrm.dev.azure.com/gleyva/1d04d4bb-b8ea-423a-9150-42b7f2543054/_apis/Release/definitions/3",
+  "_links": {
+    "self": {
+      "href": "https://vsrm.dev.azure.com/gleyva/1d04d4bb-b8ea-423a-9150-42b7f2543054/_apis/Release/definitions/3"
+    },
+    "web": {
+      "href": "https://dev.azure.com/gleyva/1d04d4bb-b8ea-423a-9150-42b7f2543054/_release?definitionId=3"
+    }
+  }
+}
